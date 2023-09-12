@@ -28,4 +28,3 @@ for xml_file in xml_files:
     print(f'File: {xml_file}')
     for key, value in class_counters.items():
         print('Class:', key, ', quantity of elements:', value)
-    
