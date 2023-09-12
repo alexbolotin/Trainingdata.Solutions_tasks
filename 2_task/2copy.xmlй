@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <image id="23" name="ftp/alinyao_data/samsung/selected/wild animal/medium-9lau4mL-FAE.jpg" width="2832" height="4240">
+    <polygon label="item" occluded="0" source="manual" points="2128.86,1956.61948.04" z_order="0">
+    </polygon>
+    <polygon label="ignore" occluded="0" source="manual" points="1917.127" z_order="1">
+    </polygon>
+    <polygon label="ignore" occluded="0" source="manual" points="1368.344,1695.80" z_order="1">
+    </polygon>
+    <polygon label="ignore" occluded="0" source="manual" points="792.36,1041055.14" z_order="1">
+    </polygon>
+  </image>
+  <image id="995" name="ftp/RD/1000_samples/fb783e93-ab1b-4869-bd57-349905cfb74b_1647585885213.jpg" width="1920" height="1206">
+      <box label="Дублирующий" occluded="0" source="manual" xtl="143.58" ytl="454.21" xbr="182.76" ybr="549.38" z_order="0">
+      </box>
+      <polygon label="Дублирующий" occluded="0" source="manual" points="792.36,1041055.14" z_order="1">
+    </polygon>
+    </image>
+    <image id="994" name="ftp/RD/1000_samples/fb783e93-ab1b-4869-bd57-349905cfb74b_1647585878155.jpg" width="1920" height="1206">
+      <box label="Дублирующий" occluded="0" source="manual" xtl="693.79" ytl="612.00" xbr="706.28" ybr="645.71" z_order="0">
+      </box>
+    </image>
+    <image id="993" name="ftp/RD/1000_samples/fb783e93-ab1b-4869-bd57-349905cfb74b_1647585878155.jpg" width="1000" height="1206">
+      <box label="Дублирующий" occluded="0" source="manual" xtl="693.79" ytl="612.00" xbr="706.28" ybr="645.71" z_order="0">
+      </box>
+    </image>
+</annotations>
