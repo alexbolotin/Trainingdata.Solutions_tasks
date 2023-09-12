@@ -14,7 +14,7 @@ for xml_file in xml_files:
     tree = ET.parse(xml_file_path)
     root = tree.getroot()
     
-    # 7. change ids to reverse
+    # 7. change id`s to reverse
     images = list(root.findall('.//image'))    
     existing_ids = [image.get('id') for image in images][::-1]
 

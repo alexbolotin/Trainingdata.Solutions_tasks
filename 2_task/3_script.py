@@ -29,4 +29,4 @@ for xml_file in xml_files:
     print(f'File: {xml_file}')
     for key, value in elements_tag.items():
         print('Element:', key, ', quantity of elements:', value)
-    
+    print('\n\n')

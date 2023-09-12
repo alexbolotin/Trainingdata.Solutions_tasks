@@ -77,8 +77,4 @@ for xml_file in xml_files:
 
     random_print_image(max_images, max = True)
     random_print_image(min_images, min = True)
-    print('\n')
-    
-    
-
-    
+    print('\n\n')
