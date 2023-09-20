@@ -33,7 +33,7 @@ for xml_file in xml_files:
     # 1. find image in file
     images = root.findall('.//image')
     
-    # 2,3 find annotati images wit 'box'
+    # 2,3 find annotation images with 'box'
     annotated_images = [image for image in root.findall('.//image') if image.find('box') is not None]
     
     # 5,5* find all unique classes and elements inside
@@ -75,6 +75,6 @@ for xml_file in xml_files:
         print(f'2. Annotated images: {len(annotated_images)}')
     print('5. Quantity of all elements:', counter)
 
-    random_print_image(max_images, max = True)
-    random_print_image(min_images, min = True)
+    # random_print_image(max_images, max = True)
+    # random_print_image(min_images, min = True)
     print('\n\n')

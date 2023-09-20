@@ -16,10 +16,14 @@ for xml_file in xml_files:
     
     # 7. change id`s to reverse
     images = list(root.findall('.//image'))    
-    existing_ids = [image.get('id') for image in images][::-1]
 
-    for image, existing_id in zip(images, existing_ids):
-        image.set('id', existing_id)
+    for image in images:
+        old_id = image.get('id')
+        if old_id is not None:
+            # Reverse the id
+            new_id = old_id[::-1]  
+            image.set('id', new_id)
+    
 
     # 8. change image extension to png and remove the path
     for image in images:
