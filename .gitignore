@@ -5,7 +5,8 @@ postgres/
 media/
 mediafiles/
 volume/
-workfile/
+workfile.py
+chromedriver/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
