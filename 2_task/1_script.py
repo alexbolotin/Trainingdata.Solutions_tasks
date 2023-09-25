@@ -33,8 +33,8 @@ for xml_file in xml_files:
     # 1. find image in file
     images = root.findall('.//image')
     
-    # 2,3 find annotation images with 'box'
-    annotated_images = [image for image in root.findall('.//image') if image.find('box') is not None]
+    # 2,3 find annotation images - images with some tag
+    annotated_images = [image for image in root.findall('.//image') if len(image.findall('*')) > 0]
     
     # 5,5* find all unique classes and elements inside
     element_tags = {}
