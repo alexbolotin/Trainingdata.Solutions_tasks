@@ -75,6 +75,6 @@ for xml_file in xml_files:
         print(f'2. Annotated images: {len(annotated_images)}')
     print('5. Quantity of all elements:', counter)
 
-    # random_print_image(max_images, max = True)
-    # random_print_image(min_images, min = True)
+    random_print_image(max_images, max = True)
+    random_print_image(min_images, min = True)
     print('\n\n')
